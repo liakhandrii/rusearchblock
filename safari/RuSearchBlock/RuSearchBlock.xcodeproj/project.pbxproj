@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49968FF32C8E2440008C45BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49968FF22C8E2440008C45BB /* AppDelegate.swift */; };
+		49968FF52C8E2440008C45BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49968FF42C8E2440008C45BB /* SceneDelegate.swift */; };
+		49968FF82C8E2440008C45BB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 49968FF72C8E2440008C45BB /* Base */; };
+		49968FFB2C8E2440008C45BB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 49968FFA2C8E2440008C45BB /* Base */; };
+		499690042C8E2440008C45BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499690032C8E2440008C45BB /* AppDelegate.swift */; };
+		499690072C8E2440008C45BB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 499690062C8E2440008C45BB /* Base */; };
+		4996900F2C8E2440008C45BB /* RuSearchBlock Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4996900E2C8E2440008C45BB /* RuSearchBlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		499690192C8E2440008C45BB /* RuSearchBlock Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 499690182C8E2440008C45BB /* RuSearchBlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4996901F2C8E2440008C45BB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 49968FE32C8E243F008C45BB /* Base */; };
+		499690202C8E2440008C45BB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 49968FE32C8E243F008C45BB /* Base */; };
+		499690212C8E2440008C45BB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49968FE42C8E243F008C45BB /* Icon.png */; };
+		499690222C8E2440008C45BB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49968FE42C8E243F008C45BB /* Icon.png */; };
+		499690232C8E2440008C45BB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 49968FE52C8E243F008C45BB /* Style.css */; };
+		499690242C8E2440008C45BB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 49968FE52C8E243F008C45BB /* Style.css */; };
+		499690252C8E2440008C45BB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 49968FE62C8E243F008C45BB /* Script.js */; };
+		499690262C8E2440008C45BB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 49968FE62C8E243F008C45BB /* Script.js */; };
+		499690272C8E2440008C45BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49968FE72C8E243F008C45BB /* ViewController.swift */; };
+		499690282C8E2440008C45BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49968FE72C8E243F008C45BB /* ViewController.swift */; };
+		499690292C8E2440008C45BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49968FE82C8E2440008C45BB /* Assets.xcassets */; };
+		4996902A2C8E2440008C45BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49968FE82C8E2440008C45BB /* Assets.xcassets */; };
+		4996902B2C8E2440008C45BB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49968FEA2C8E2440008C45BB /* SafariWebExtensionHandler.swift */; };
+		4996902C2C8E2440008C45BB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49968FEA2C8E2440008C45BB /* SafariWebExtensionHandler.swift */; };
+		499690472C8E2440008C45BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4996903E2C8E2440008C45BB /* LICENSE */; };
+		499690482C8E2440008C45BB /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4996903F2C8E2440008C45BB /* images */; };
+		499690492C8E2440008C45BB /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 499690402C8E2440008C45BB /* README.MD */; };
+		4996904A2C8E2440008C45BB /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 499690412C8E2440008C45BB /* build.sh */; };
+		4996904B2C8E2440008C45BB /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = 499690422C8E2440008C45BB /* package-lock.json */; };
+		4996904C2C8E2440008C45BB /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 499690432C8E2440008C45BB /* package.json */; };
+		4996904E2C8E2440008C45BB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 499690452C8E2440008C45BB /* manifest.json */; };
+		4996904F2C8E2440008C45BB /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 499690462C8E2440008C45BB /* content.js */; };
+		499690502C8E2440008C45BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4996903E2C8E2440008C45BB /* LICENSE */; };
+		499690512C8E2440008C45BB /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4996903F2C8E2440008C45BB /* images */; };
+		499690522C8E2440008C45BB /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 499690402C8E2440008C45BB /* README.MD */; };
+		499690532C8E2440008C45BB /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 499690412C8E2440008C45BB /* build.sh */; };
+		499690542C8E2440008C45BB /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = 499690422C8E2440008C45BB /* package-lock.json */; };
+		499690552C8E2440008C45BB /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 499690432C8E2440008C45BB /* package.json */; };
+		499690572C8E2440008C45BB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 499690452C8E2440008C45BB /* manifest.json */; };
+		499690582C8E2440008C45BB /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 499690462C8E2440008C45BB /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		499690102C8E2440008C45BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49968FDC2C8E243F008C45BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4996900D2C8E2440008C45BB;
+			remoteInfo = "RuSearchBlock Extension (iOS)";
+		};
+		4996901A2C8E2440008C45BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49968FDC2C8E243F008C45BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499690172C8E2440008C45BB;
+			remoteInfo = "RuSearchBlock Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		499690322C8E2440008C45BB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4996900F2C8E2440008C45BB /* RuSearchBlock Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499690392C8E2440008C45BB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				499690192C8E2440008C45BB /* RuSearchBlock Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49968FE32C8E243F008C45BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		49968FE42C8E243F008C45BB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		49968FE52C8E243F008C45BB /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		49968FE62C8E243F008C45BB /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		49968FE72C8E243F008C45BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49968FE82C8E2440008C45BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49968FEA2C8E2440008C45BB /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		49968FEF2C8E2440008C45BB /* RuSearchBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuSearchBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49968FF22C8E2440008C45BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49968FF42C8E2440008C45BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		49968FF72C8E2440008C45BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49968FFA2C8E2440008C45BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49968FFC2C8E2440008C45BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499690012C8E2440008C45BB /* RuSearchBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuSearchBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499690032C8E2440008C45BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		499690062C8E2440008C45BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		499690082C8E2440008C45BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499690092C8E2440008C45BB /* RuSearchBlock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RuSearchBlock.entitlements; sourceTree = "<group>"; };
+		4996900E2C8E2440008C45BB /* RuSearchBlock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RuSearchBlock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499690132C8E2440008C45BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499690182C8E2440008C45BB /* RuSearchBlock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RuSearchBlock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4996901D2C8E2440008C45BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4996901E2C8E2440008C45BB /* RuSearchBlock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RuSearchBlock.entitlements; sourceTree = "<group>"; };
+		4996903E2C8E2440008C45BB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
+		4996903F2C8E2440008C45BB /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../images; sourceTree = "<group>"; };
+		499690402C8E2440008C45BB /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.MD; path = ../../../README.MD; sourceTree = "<group>"; };
+		499690412C8E2440008C45BB /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = build.sh; path = ../../../build.sh; sourceTree = "<group>"; };
+		499690422C8E2440008C45BB /* package-lock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "package-lock.json"; path = "../../../package-lock.json"; sourceTree = "<group>"; };
+		499690432C8E2440008C45BB /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = package.json; path = ../../../package.json; sourceTree = "<group>"; };
+		499690452C8E2440008C45BB /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../manifest.json; sourceTree = "<group>"; };
+		499690462C8E2440008C45BB /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../../content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49968FEC2C8E2440008C45BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49968FFE2C8E2440008C45BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4996900B2C8E2440008C45BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499690152C8E2440008C45BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49968FDB2C8E243F008C45BB = {
+			isa = PBXGroup;
+			children = (
+				49968FE02C8E243F008C45BB /* Shared (App) */,
+				49968FE92C8E2440008C45BB /* Shared (Extension) */,
+				49968FF12C8E2440008C45BB /* iOS (App) */,
+				499690022C8E2440008C45BB /* macOS (App) */,
+				499690122C8E2440008C45BB /* iOS (Extension) */,
+				4996901C2C8E2440008C45BB /* macOS (Extension) */,
+				49968FF02C8E2440008C45BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49968FE02C8E243F008C45BB /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				49968FE72C8E243F008C45BB /* ViewController.swift */,
+				49968FE82C8E2440008C45BB /* Assets.xcassets */,
+				49968FE12C8E243F008C45BB /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		49968FE12C8E243F008C45BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49968FE22C8E243F008C45BB /* Main.html */,
+				49968FE42C8E243F008C45BB /* Icon.png */,
+				49968FE52C8E243F008C45BB /* Style.css */,
+				49968FE62C8E243F008C45BB /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49968FE92C8E2440008C45BB /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4996903D2C8E2440008C45BB /* Resources */,
+				49968FEA2C8E2440008C45BB /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		49968FF02C8E2440008C45BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49968FEF2C8E2440008C45BB /* RuSearchBlock.app */,
+				499690012C8E2440008C45BB /* RuSearchBlock.app */,
+				4996900E2C8E2440008C45BB /* RuSearchBlock Extension.appex */,
+				499690182C8E2440008C45BB /* RuSearchBlock Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49968FF12C8E2440008C45BB /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				49968FF22C8E2440008C45BB /* AppDelegate.swift */,
+				49968FF42C8E2440008C45BB /* SceneDelegate.swift */,
+				49968FF62C8E2440008C45BB /* LaunchScreen.storyboard */,
+				49968FF92C8E2440008C45BB /* Main.storyboard */,
+				49968FFC2C8E2440008C45BB /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		499690022C8E2440008C45BB /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				499690032C8E2440008C45BB /* AppDelegate.swift */,
+				499690052C8E2440008C45BB /* Main.storyboard */,
+				499690082C8E2440008C45BB /* Info.plist */,
+				499690092C8E2440008C45BB /* RuSearchBlock.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		499690122C8E2440008C45BB /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				499690132C8E2440008C45BB /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		4996901C2C8E2440008C45BB /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4996901D2C8E2440008C45BB /* Info.plist */,
+				4996901E2C8E2440008C45BB /* RuSearchBlock.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		4996903D2C8E2440008C45BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4996903E2C8E2440008C45BB /* LICENSE */,
+				4996903F2C8E2440008C45BB /* images */,
+				499690402C8E2440008C45BB /* README.MD */,
+				499690412C8E2440008C45BB /* build.sh */,
+				499690422C8E2440008C45BB /* package-lock.json */,
+				499690432C8E2440008C45BB /* package.json */,
+				499690452C8E2440008C45BB /* manifest.json */,
+				499690462C8E2440008C45BB /* content.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49968FEE2C8E2440008C45BB /* RuSearchBlock (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499690332C8E2440008C45BB /* Build configuration list for PBXNativeTarget "RuSearchBlock (iOS)" */;
+			buildPhases = (
+				49968FEB2C8E2440008C45BB /* Sources */,
+				49968FEC2C8E2440008C45BB /* Frameworks */,
+				49968FED2C8E2440008C45BB /* Resources */,
+				499690322C8E2440008C45BB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499690112C8E2440008C45BB /* PBXTargetDependency */,
+			);
+			name = "RuSearchBlock (iOS)";
+			productName = "RuSearchBlock (iOS)";
+			productReference = 49968FEF2C8E2440008C45BB /* RuSearchBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		499690002C8E2440008C45BB /* RuSearchBlock (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4996903A2C8E2440008C45BB /* Build configuration list for PBXNativeTarget "RuSearchBlock (macOS)" */;
+			buildPhases = (
+				49968FFD2C8E2440008C45BB /* Sources */,
+				49968FFE2C8E2440008C45BB /* Frameworks */,
+				49968FFF2C8E2440008C45BB /* Resources */,
+				499690392C8E2440008C45BB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4996901B2C8E2440008C45BB /* PBXTargetDependency */,
+			);
+			name = "RuSearchBlock (macOS)";
+			productName = "RuSearchBlock (macOS)";
+			productReference = 499690012C8E2440008C45BB /* RuSearchBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4996900D2C8E2440008C45BB /* RuSearchBlock Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4996902F2C8E2440008C45BB /* Build configuration list for PBXNativeTarget "RuSearchBlock Extension (iOS)" */;
+			buildPhases = (
+				4996900A2C8E2440008C45BB /* Sources */,
+				4996900B2C8E2440008C45BB /* Frameworks */,
+				4996900C2C8E2440008C45BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RuSearchBlock Extension (iOS)";
+			productName = "RuSearchBlock Extension (iOS)";
+			productReference = 4996900E2C8E2440008C45BB /* RuSearchBlock Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		499690172C8E2440008C45BB /* RuSearchBlock Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499690362C8E2440008C45BB /* Build configuration list for PBXNativeTarget "RuSearchBlock Extension (macOS)" */;
+			buildPhases = (
+				499690142C8E2440008C45BB /* Sources */,
+				499690152C8E2440008C45BB /* Frameworks */,
+				499690162C8E2440008C45BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RuSearchBlock Extension (macOS)";
+			productName = "RuSearchBlock Extension (macOS)";
+			productReference = 499690182C8E2440008C45BB /* RuSearchBlock Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49968FDC2C8E243F008C45BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					49968FEE2C8E2440008C45BB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					499690002C8E2440008C45BB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4996900D2C8E2440008C45BB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					499690172C8E2440008C45BB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 49968FDF2C8E243F008C45BB /* Build configuration list for PBXProject "RuSearchBlock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49968FDB2C8E243F008C45BB;
+			productRefGroup = 49968FF02C8E2440008C45BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49968FEE2C8E2440008C45BB /* RuSearchBlock (iOS) */,
+				499690002C8E2440008C45BB /* RuSearchBlock (macOS) */,
+				4996900D2C8E2440008C45BB /* RuSearchBlock Extension (iOS) */,
+				499690172C8E2440008C45BB /* RuSearchBlock Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49968FED2C8E2440008C45BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499690212C8E2440008C45BB /* Icon.png in Resources */,
+				49968FF82C8E2440008C45BB /* Base in Resources */,
+				4996901F2C8E2440008C45BB /* Base in Resources */,
+				499690252C8E2440008C45BB /* Script.js in Resources */,
+				499690292C8E2440008C45BB /* Assets.xcassets in Resources */,
+				49968FFB2C8E2440008C45BB /* Base in Resources */,
+				499690232C8E2440008C45BB /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49968FFF2C8E2440008C45BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499690222C8E2440008C45BB /* Icon.png in Resources */,
+				499690242C8E2440008C45BB /* Style.css in Resources */,
+				499690072C8E2440008C45BB /* Base in Resources */,
+				499690262C8E2440008C45BB /* Script.js in Resources */,
+				4996902A2C8E2440008C45BB /* Assets.xcassets in Resources */,
+				499690202C8E2440008C45BB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4996900C2C8E2440008C45BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499690522C8E2440008C45BB /* README.MD in Resources */,
+				499690532C8E2440008C45BB /* build.sh in Resources */,
+				499690552C8E2440008C45BB /* package.json in Resources */,
+				499690542C8E2440008C45BB /* package-lock.json in Resources */,
+				499690572C8E2440008C45BB /* manifest.json in Resources */,
+				499690512C8E2440008C45BB /* images in Resources */,
+				499690582C8E2440008C45BB /* content.js in Resources */,
+				499690502C8E2440008C45BB /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499690162C8E2440008C45BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499690492C8E2440008C45BB /* README.MD in Resources */,
+				4996904A2C8E2440008C45BB /* build.sh in Resources */,
+				4996904C2C8E2440008C45BB /* package.json in Resources */,
+				4996904B2C8E2440008C45BB /* package-lock.json in Resources */,
+				4996904E2C8E2440008C45BB /* manifest.json in Resources */,
+				499690482C8E2440008C45BB /* images in Resources */,
+				4996904F2C8E2440008C45BB /* content.js in Resources */,
+				499690472C8E2440008C45BB /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49968FEB2C8E2440008C45BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499690272C8E2440008C45BB /* ViewController.swift in Sources */,
+				49968FF32C8E2440008C45BB /* AppDelegate.swift in Sources */,
+				49968FF52C8E2440008C45BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49968FFD2C8E2440008C45BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499690282C8E2440008C45BB /* ViewController.swift in Sources */,
+				499690042C8E2440008C45BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4996900A2C8E2440008C45BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4996902B2C8E2440008C45BB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499690142C8E2440008C45BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4996902C2C8E2440008C45BB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		499690112C8E2440008C45BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4996900D2C8E2440008C45BB /* RuSearchBlock Extension (iOS) */;
+			targetProxy = 499690102C8E2440008C45BB /* PBXContainerItemProxy */;
+		};
+		4996901B2C8E2440008C45BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499690172C8E2440008C45BB /* RuSearchBlock Extension (macOS) */;
+			targetProxy = 4996901A2C8E2440008C45BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49968FE22C8E243F008C45BB /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49968FE32C8E243F008C45BB /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		49968FF62C8E2440008C45BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49968FF72C8E2440008C45BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		49968FF92C8E2440008C45BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49968FFA2C8E2440008C45BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		499690052C8E2440008C45BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499690062C8E2440008C45BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4996902D2C8E2440008C45BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4996902E2C8E2440008C45BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		499690302C8E2440008C45BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RuSearchBlock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuSearchBlock.Extension;
+				PRODUCT_NAME = "RuSearchBlock Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499690312C8E2440008C45BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RuSearchBlock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuSearchBlock.Extension;
+				PRODUCT_NAME = "RuSearchBlock Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499690342C8E2440008C45BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = RuSearchBlock;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuSearchBlock;
+				PRODUCT_NAME = RuSearchBlock;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499690352C8E2440008C45BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = RuSearchBlock;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuSearchBlock;
+				PRODUCT_NAME = RuSearchBlock;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499690372C8E2440008C45BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/RuSearchBlock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RuSearchBlock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuSearchBlock.Extension;
+				PRODUCT_NAME = "RuSearchBlock Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		499690382C8E2440008C45BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/RuSearchBlock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RuSearchBlock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuSearchBlock.Extension;
+				PRODUCT_NAME = "RuSearchBlock Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4996903B2C8E2440008C45BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/RuSearchBlock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = RuSearchBlock;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuSearchBlock;
+				PRODUCT_NAME = RuSearchBlock;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4996903C2C8E2440008C45BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/RuSearchBlock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = RuSearchBlock;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RuSearchBlock;
+				PRODUCT_NAME = RuSearchBlock;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49968FDF2C8E243F008C45BB /* Build configuration list for PBXProject "RuSearchBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4996902D2C8E2440008C45BB /* Debug */,
+				4996902E2C8E2440008C45BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4996902F2C8E2440008C45BB /* Build configuration list for PBXNativeTarget "RuSearchBlock Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499690302C8E2440008C45BB /* Debug */,
+				499690312C8E2440008C45BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499690332C8E2440008C45BB /* Build configuration list for PBXNativeTarget "RuSearchBlock (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499690342C8E2440008C45BB /* Debug */,
+				499690352C8E2440008C45BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499690362C8E2440008C45BB /* Build configuration list for PBXNativeTarget "RuSearchBlock Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499690372C8E2440008C45BB /* Debug */,
+				499690382C8E2440008C45BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4996903A2C8E2440008C45BB /* Build configuration list for PBXNativeTarget "RuSearchBlock (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4996903B2C8E2440008C45BB /* Debug */,
+				4996903C2C8E2440008C45BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49968FDC2C8E243F008C45BB /* Project object */;
+}

@@ -3,3 +3,4 @@ node_modules
 tmp
 tmp.pem
 tmp.crx
+.DS_Store
